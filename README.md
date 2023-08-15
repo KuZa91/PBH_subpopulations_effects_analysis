@@ -1,5 +1,5 @@
 
-# Correlation-Method-first-2019
+# PBH subpopulations effects analysis over a fiducial SOBBH population in next-generation detectors
 **Paolo Marcoccia<sup>1</sup>, Mauro Pieroni<sup>2</sup> and Germano Nardini<sup>1</sup>**
 
 <sub>1. University of Stavanger, Institutt for Matematikk og Fysikk, Kjølv Egelands hus, 5.etg, E-blokk, 4021 Stavanger, Norway </sub>  
