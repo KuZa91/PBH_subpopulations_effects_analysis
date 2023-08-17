@@ -9,7 +9,7 @@
 
 In this repository, we give all the notebooks required in order to perform the analysis described in [Article to appear](https://www.lifewire.com/thmb/YKCp3LuI-r3vTaaQufVOETpI-CM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/google-404-error-0f9029ad5ea14b2db1cddb65d8188f69.png).
 The analysis is based on the results obtained in [S.Babak et al.](https://inspirehep.net/literature/2651157) and [S.S.Bavera et al.](https://arxiv.org/abs/2109.05836), and will require to run the notebook and scripts presented in [Generating-a-BH-Merging-Catalogue](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue).  
-The motivation for this study is to understand the effects of possible _Primordial Black Holes (PBHs)_ sub-populations over the fiducial _Black Holes (BHs)_ population observed by the _LIGO-Virgo-Kagra (LVK)_ [collaboration](https://www.ligo.org/), when the next generation of _Gravitational Wave (GW)_ detectors (such as [LISA](https://www.elisascience.org/) and [ET](https://www.einsteintelescope.nl/en/)) will run.
+The motivation for this study is to understand the effects of possible _Primordial Black Holes (PBHs)_ sub-populations over the fiducial _Black Holes (BHs)_ population observed by the _LIGO-Virgo-Kagra ([LVK](https://www.ligo.org/))_ [collaboration](https://www.ligo.org/), when the next generation of _Gravitational Wave (GW)_ detectors (such as [LISA](https://www.elisascience.org/) and [ET](https://www.einsteintelescope.nl/en/)) will run.
 The fiducial _BH_ population is taken in agreement with what presented in 
 
 ## Analysis Details ##
