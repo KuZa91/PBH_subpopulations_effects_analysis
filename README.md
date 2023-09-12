@@ -36,14 +36,13 @@ sudo apt-get update
 sudo apt-get install build-essential
 ```
 
-- A copy of the notebooks developed in [Generating-a-BH-Merging-Catalogue]([https://github.com/gwastro/gw150914_investigation](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/tree/master)) is required in order to generate the catalogs of the population. We recommend using the latest version which allows to generate _PBH_ sub-populations catalogs, and be found in the [linked]([https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb)) notebook.
+- A copy of the notebooks developed in [Generating-a-BH-Merging-Catalogue]([https://github.com/gwastro/gw150914_investigation](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/tree/master)) is required in order to generate the catalogs of the population. We recommend using the latest version which allows to generate _PBH_ sub-populations catalogs, and be found in the linked [BH-SynthesisNotebook]([https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb)).
 
 ## How to run the PBH-subpopulation analysis ##
 
-The Correlation Analysis, will be run for a single event at a time.
-The steps to do in order to generate the results of our paper are :
+The steps required in order to reproduce the results presented in [Article to appear](https://www.lifewire.com/thmb/YKCp3LuI-r3vTaaQufVOETpI-CM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/google-404-error-0f9029ad5ea14b2db1cddb65d8188f69.png) are as follows:
 
-1. Download the data of the two detectors _H1_,_L1_ for the event you wish to analyze from [GWOSC](https://www.gw-openscience.org/catalog/GWTC-1-confident/) and copy them in their respective directory, we used the _4096 s_, _4 KHz_ _.gwf_ files for our analysis;
+1. Use the [BH-SynthesisNotebook]([https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb)) to generate $~10$ _LVK_ fiducial population catalogs;
 
 2. Download the posteriors for the events of _O1_ from [Biwer et al.](https://github.com/gwastro/pycbc-inference-paper/tree/master/posteriors), the posteriors for _GW170104_ instead may be found [here](https://github.com/gwastro/o2-bbh-pe/tree/master/posteriors);
 
