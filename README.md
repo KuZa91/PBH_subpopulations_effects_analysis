@@ -59,6 +59,14 @@ The steps required in order to reproduce the results presented in [Article to ap
 
 ## Additional information about the execution of the notebooks
 
+- The multiprocessing part of the code is set in order to run on a server, if you wish to run the codes on a personal computer it is reccomended to change:
+
+<code> n_jobs = 80  ->  (mp.cpu_count() - 4) </code>
+
+in the _Global variable of the simulation_ sections !
+
+- The [BH-SynthesisNotebook](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb) can be used to generate both catalogs for population coming from the Fiducial model or from a _PBH_ sub-population model. To this extent, read the informations and set the flags properly in the _FLAG selection section_ of said notebook. Once the flags are well defined, the particular parameters of the chosen mode can instead be set in the _Mass distribution functions_ section and in the _Redshift dependent statistic_ section. The spin variables for both populations will be generated in agreement with [S.Babak et al.](https://inspirehep.net/literature/2651157).
+
 - The code for estimating the _SNR_ using the full parameters in the waveform is not available in this directory, for info, ask to _mauro.pieroni@cern.ch_
 
 - On the first run, the [SGWBPSAnalysis-Notebook](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/SGWBPSAnalv2.1.ipynb) requires to compute a support _SNR_ mat and need to be run with the flag:
@@ -70,3 +78,6 @@ The steps required in order to reproduce the results presented in [Article to ap
 - When plotting using the [PSPlotter](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/PSPlotter.ipynb), the flags for the run needs to be in agreement with the generated datasets, this is also true for the set precision !
 
 - In order to run the [ResolvableDistEstimator-Notebook](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/ResolvableDistEstimator.ipynb) it is necessary to use the same _SNRMat.pkl_ generated when using the [SGWBPSAnalysis-Notebook](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/SGWBPSAnalv2.1.ipynb).
+
+- Before running the [ResolvableSourcePlotter-Notebook](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/ResSourcePlotter.ipynb) it is highly recommended to check the default paths of the code to understand the hierarchy that the notebook use in order to read the data! It is also necessary to compute the _SNR_ for both the Fiducial and Sub-pop catalogs, and both for $A^+$ _LIGO_ and $ET$ at the same time !
+
