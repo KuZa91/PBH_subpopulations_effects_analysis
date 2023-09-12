@@ -61,9 +61,14 @@ The steps required in order to reproduce the results presented in [Article to ap
 
 - The multiprocessing part of the code is set in order to run on a server, if you wish to run the codes on a personal computer it is reccomended to change:
 
-<code> n_jobs = 80  ->  (mp.cpu_count() - 4) </code>
+  <code> n_jobs = 80  ->  (mp.cpu_count() - 4) </code>
 
-in the _Global variable of the simulation_ sections !
+  in the _Global variable of the simulation_ sections !
+
+- The [XHM-SNR Script](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/AddIMRPhenomXHMAnalSNR.py) can be run on postprocessing on any _DetFrame_ catalog and can add to the latter the _SNR_ column for various
+  detector. The standard way to call the script is:
+   
+  <code> python AddIMRPhenomXHMAnalSNR.py _path-to-detframe-catalogue_ _catalogue-key_ _Detector-Name_ _SNR-CutTreshold_ </code>
 
 - The [BH-SynthesisNotebook](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb) can be used to generate both catalogs for population coming from the Fiducial model or from a _PBH_ sub-population model. To this extent, read the informations and set the flags properly in the _FLAG selection section_ of said notebook. Once the flags are well defined, the particular parameters of the chosen mode can instead be set in the _Mass distribution functions_ section and in the _Redshift dependent statistic_ section. The spin variables for both populations will be generated in agreement with [S.Babak et al.](https://inspirehep.net/literature/2651157).
 
