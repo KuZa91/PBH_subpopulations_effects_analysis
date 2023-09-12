@@ -18,14 +18,16 @@ Details of the analaysis can be found in our [Article to appear](https://www.lif
 
 ## Additional Material ##
 
-In order to reproduce the results of our paper, an [Anaconda](https://www.anaconda.com/distribution/) environment with _python 2.7_ is needed.
-The supplementary libraries needed, may be checked from the file [init_module.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/init_module.py).
+In order to reproduce the results of our paper, an [Anaconda](https://www.anaconda.com/distribution/) environment with _python 3.x_ is needed.
+This analysis, was performed using _python 3.8_. In order to estimate the _SNR_ for the generated events, some supplementary materials and libraries are needed.
 In particular :
 
-- The notebooks, require the installation of [PyCBC](https://pycbc.org/) v1.12.4 and [LALSuite](https://git.ligo.org/lscsoft/lalsuite) 6.49, which contains version 1.8.0 of the LALSimulation library used to generate the maximum likelihood waveform. Both of these libraries can be installed using [pip](https://pip.pypa.io/en/stable/) with the command:
+- The notebooks and SNR estimation scripts require the installation of [PyCBC](https://pycbc.org/). This library can be installed using [pip](https://pip.pypa.io/en/stable/) with the command:
 ```sh
-pip install 'pycbc==1.12.4' 'lalsuite==6.49'
+pip install pycbc
 ```
+- The SNR estimation scripts will need the sensitivity curves of the chosen detector in order to run, these files will be available in this directory for the [ALIGO](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/ALigoSens.txt), [A+LIGO](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/AplusDesign.txt) and [ET](https://github.com/KuZa91/PBH_subpopulations_effects_analysis/blob/main/ETSens.txt) designs.
+
 - Some function will require a _C_, _C++_ compiler in order to run, the [GCC](https://gcc.gnu.org/) compiler may be easily installed by running : 
 
 ```sh
@@ -33,19 +35,7 @@ sudo apt-get update
 sudo apt-get install build-essential
 ```
 
-- A new version of the file [res.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/res.py) is available in the code directory. The latter, need to be copied and pasted in the directory  
-```sh
-/home/*username*/anaconda2/lib/python2.7/site-packages
-```
-
-- The standard version of [Astropy](https://www.astropy.org/) will result into a problem while downloading the additional needed data due to a server that went down, a new version of the [iers.py](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/blob/master/Code/iers.py) was added in the [code](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code) directory in order to fix the problem.
-The new file should be copied in the directory :
-
-```sh
-/home/*username*/anaconda2/lib/python2.7/site-packages/astropy/utils/iers
-```
-
-- A copy of the notebooks developed by [Nielsen et al.](https://github.com/gwastro/gw150914_investigation) may be found in the [code](https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code) directory.
+- A copy of the notebooks developed in [Generating-a-BH-Merging-Catalogue]([https://github.com/gwastro/gw150914_investigation](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/tree/master)) is required in order to generate the catalogs of the population. We recommend using the latest version which allows to generate _PBH_ sub-populations catalogs, and be found in the [linked]([https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb)) notebook.
 
 ## How to run the Correlation Analysis ##
 
