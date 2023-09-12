@@ -12,11 +12,11 @@ The analysis is based on the results obtained in [S.Babak et al.](https://inspir
 The motivation for this study is to understand the effects of possible _Primordial Black Holes (PBHs)_ sub-populations over the fiducial _Black Holes (BHs)_ population observed by the _LIGO-Virgo-Kagra ([LVK](https://www.ligo.org/))_ collaboration, when the next generation of _Gravitational Wave (GW)_ detectors (such as [LISA](https://www.elisascience.org/) and [ET](https://www.einsteintelescope.nl/en/)) will run.
 The fiducial _BH_ population is taken in agreement with what is presented in the latest _LVK_ [inference paper]((https://arxiv.org/abs/2111.03634)), and the results are extended at higher redshifts using the approach described in [S.Babak et al.](https://iopscience.iop.org/article/10.1088/1475-7516/2023/08/034). 
 
-## Analysis Details ##
+## Analysis details ##
 
 Details of the analaysis can be found in our [Article to appear](https://www.lifewire.com/thmb/YKCp3LuI-r3vTaaQufVOETpI-CM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/google-404-error-0f9029ad5ea14b2db1cddb65d8188f69.png).
 
-## Additional Material ##
+## Additional material ##
 
 In order to reproduce the results of our paper, an [Anaconda](https://www.anaconda.com/distribution/) environment with _python 3.x_ is needed.
 This analysis, was performed using _python 3.8_. In order to estimate the _SNR_ for the generated events, some supplementary materials and libraries are needed.
@@ -37,7 +37,7 @@ sudo apt-get install build-essential
 
 - A copy of the notebooks developed in [Generating-a-BH-Merging-Catalogue]([https://github.com/gwastro/gw150914_investigation](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/tree/master)) is required in order to generate the catalogs of the population. We recommend using the latest version which allows to generate _PBH_ sub-populations catalogs, and be found in the [linked]([https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb)) notebook.
 
-## How to run the Correlation Analysis ##
+## How to run the PBH-subpopulation analysis ##
 
 The Correlation Analysis, will be run for a single event at a time.
 The steps to do in order to generate the results of our paper are :
