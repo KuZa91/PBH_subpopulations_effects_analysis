@@ -15,7 +15,7 @@ We are going to test sub-population having a mass function that follows either a
 
 ## Analysis details ##
 
-Details of the analaysis can be found in our [Article to appear](https://www.lifewire.com/thmb/YKCp3LuI-r3vTaaQufVOETpI-CM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/google-404-error-0f9029ad5ea14b2db1cddb65d8188f69.png).
+Details of the analysis can be found in our [Article to appear](https://www.lifewire.com/thmb/YKCp3LuI-r3vTaaQufVOETpI-CM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/google-404-error-0f9029ad5ea14b2db1cddb65d8188f69.png).
 
 ## Additional material ##
 
