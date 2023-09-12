@@ -42,7 +42,7 @@ sudo apt-get install build-essential
 
 The steps required in order to reproduce the results presented in [Article to appear](https://www.lifewire.com/thmb/YKCp3LuI-r3vTaaQufVOETpI-CM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/google-404-error-0f9029ad5ea14b2db1cddb65d8188f69.png) are as follows:
 
-1. Use the [BH-SynthesisNotebook]([https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb)) to generate $\sym 10$ _LVK_ fiducial population catalogs;
+1. Use the [BH-SynthesisNotebook]([https://github.com/GravWaves-IMF/Correlation-Method-first-2019-/tree/master/Code](https://github.com/KuZa91/Generating-a-BH-Merging-Catalogue/blob/master/BHCatalogV8.0.ipynb)) to generate $\sim 10$ _LVK_ fiducial population catalogs;
 
 2. 
 
