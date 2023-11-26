@@ -15,7 +15,7 @@ We are going to test sub-population having a mass function that follows either a
 
 ## Analysis details ##
 
-Details of the analysis can be found in our [P. Marcoccia et al.](https://inspirehep.net/literature/2724328).
+Details of the analysis can be found in our [PBH prospects article](https://inspirehep.net/literature/2724328).
 
 ## Additional material ##
 
